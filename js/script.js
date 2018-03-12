@@ -7,7 +7,7 @@ var textCharsAfter = text.replace('Velociraptor', dinosaurUpperCased);
 
 
 
-console.log(textCharsAfter)
+console.log(textCharsAfter.length / 2);
 
-document.write(textCharsAfter)
+document.write(textCharsAfter.length / 2);
 
