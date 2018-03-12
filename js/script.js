@@ -7,7 +7,14 @@ var textCharsAfter = text.replace('Velociraptor', dinosaurUpperCased);
 
 
 
-console.log(textCharsAfter.length / 2);
 
-document.write(textCharsAfter.length / 2);
-
+function first_half (textCharsAfter) {
+    if (textCharsAfter.length % 2 == 0) {
+      return textCharsAfter.slice(0, textCharsAfter.length / 2);
+    }
+    return textCharsAfter;
+  }
+  console.log(first_half(textCharsAfter)); 
+  
+  document.write(first_half(textCharsAfter)); 
+  
